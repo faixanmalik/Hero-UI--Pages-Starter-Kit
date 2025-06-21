@@ -1,0 +1,29 @@
+@keyframes vibrate-1 {
+  0% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(-1px, -2px); }
+  60% { transform: translate(2px, 1px); }
+  80% { transform: translate(1px, 2px); }
+  100% { transform: translate(0); }
+}
+
+.vibrate-1 {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	animation: vibrate-1 0.3s linear infinite both;
+}
+.vibrate-1:hover {
+  -webkit-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes color-change-2x{
+  0%{background:#020024}
+  100%{background:#141d59}
+}
+@keyframes color-change-2x{
+  0%{background:#020024}
+  100%{background:#141d59}
+}
+
+/* @-webkit-keyframes color-change-2x{0%{background:#080e33}100%{background:#0281db}}@keyframes color-change-2x{0%{background:#080e33}100%{background:#0281db}} */
+.color-change-2x{-webkit-animation:color-change-2x 2s linear infinite alternate both;animation:color-change-2x 2s linear infinite alternate both}
