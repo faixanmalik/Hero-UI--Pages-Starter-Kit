@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import '@/styles/scrollbar.css';
 import '@/styles/homepage.css';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 import localFont from "next/font/local";
 import ThemeProvider from 'components/theme/theme-provider'
 import { useRouter } from "next/router";
